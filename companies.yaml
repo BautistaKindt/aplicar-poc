@@ -1,0 +1,54 @@
+# ATS company configurations for the Aplicar POC
+# Each entry specifies which adapter to use and the tenant-specific parameters.
+
+greenhouse:
+  - tenant: stripe
+    company: Stripe
+  - tenant: airbnb
+    company: Airbnb
+  - tenant: dropbox
+    company: Dropbox
+  - tenant: gitlab
+    company: GitLab
+
+mercadolibre:
+  - company: Mercado Libre
+
+smartrecruiters:
+  - tenant: globantcommercestudio
+    company: Globant Commerce Studio
+
+globant:
+  - company: Globant
+    country: ["AR"]
+
+pepsico:
+  - company: PepsiCo Argentina
+    country: Argentina
+
+loreal:
+  - company: "L'Oréal"
+
+lever:
+  - tenant: despegar
+    company: Despegar
+  - tenant: rappi
+    company: Rappi
+
+workday:
+  - tenant: accenture
+    wd: wd103
+    site: AccentureCareers
+    company: Accenture
+  - tenant: rappi
+    wd: wd3
+    site: Rappi_jobs
+    company: Rappi
+  - tenant: unilever
+    wd: wd3
+    site: Unilever_Experienced_Professionals
+    company: Unilever
+  - tenant: nvidia
+    wd: wd5
+    site: NVIDIAExternalCareerSite
+    company: NVIDIA
