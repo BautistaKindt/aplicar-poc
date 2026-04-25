@@ -104,3 +104,7 @@ Edit `filters.py`:
 - Add terms to `ARGENTINA_TERMS` to catch more locations.
 - Add terms to `REMOTE_TERMS` to catch more remote-work signals.
 - The filter checks location first, then falls back to title + description for remote roles.
+
+---
+
+long live aplicar
